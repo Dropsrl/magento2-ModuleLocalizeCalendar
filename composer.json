@@ -1,0 +1,26 @@
+{
+    "name": "drop/module-modulelocalizecalendar",
+    "description": "",
+    "type": "magento2-module",
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "email": "info@mage2gen.com",
+            "name": "Mage2Gen"
+        },
+        {
+            "email": "e.pascucci@drop.it",
+            "name": "Enrico Pascucci"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Drop\\ModuleLocalizeCalendar\\": ""
+        },
+        "files": [
+            "registration.php"
+        ]
+    }
+}
